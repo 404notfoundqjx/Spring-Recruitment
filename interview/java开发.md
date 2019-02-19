@@ -1,9 +1,9 @@
 ### Java基础（[知乎](https://www.zhihu.com/question/35466520)）
-- JVM
-- 垃圾收集
-- 内存模型
+- JVM [1](http://www.importnew.com/23792.html)
+- 多线程
+- 集合类
+- 语言特性
 - 线程安全
-- ClassLoader，类加载，字节码编译
 - 《深入理解java虚拟机》、《分布式java应用：基础与实践》
 - 并发 
 ### [java后端学习路线](https://www.zhihu.com/question/19992305)
@@ -26,3 +26,7 @@
 > 《高性能MySQL》看了这个面试mysql的知识也不怕什么了吧~  
 > 《MySQL技术内幕:InnoDB存储引擎》高人推荐，看的不多，但是绝对厉害啊。  
 > 《Java核心技术》没看过第二卷，其他知识从另外的书上积累的。《tcp/ip协议 卷一》经典，个人觉得记不了那么多啊，面试问的网路很少问得生僻~。《重构》个人觉得挺好的，不然实习的时候负责的老师会叫你改改改，开玩笑，最主要是提升效率，方便维护。
+
+### 经验贴
+[java程序员各个阶段的建议](http://www.cnblogs.com/zuoxiaolong/p/life51.html)
+[java校招面试建议](https://zhuanlan.zhihu.com/p/29779039)
