@@ -1,5 +1,5 @@
 ## [JVM面试的问题](https://www.zhihu.com/question/27339390)
-### (类的加载机制)[http://www.importnew.com/23742.html]
+### [类的加载机制](http://www.importnew.com/23742.html)
 - 什么是类的加载
 加载的三种方式
 > 命令行启动应用时由 JVM初始化 加载  
