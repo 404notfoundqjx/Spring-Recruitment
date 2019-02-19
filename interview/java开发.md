@@ -1,4 +1,4 @@
-Java基础（[知乎](https://www.zhihu.com/question/35466520)）
+### Java基础（[知乎](https://www.zhihu.com/question/35466520)）
 - JVM
 - 垃圾收集
 - 内存模型
@@ -6,7 +6,7 @@ Java基础（[知乎](https://www.zhihu.com/question/35466520)）
 - ClassLoader，类加载，字节码编译
 - 《深入理解java虚拟机》、《分布式java应用：基础与实践》
 - 并发 
-[java后端学习路线](https://www.zhihu.com/question/19992305)
+### [java后端学习路线](https://www.zhihu.com/question/19992305)
 - web前端
 - Servlet/JSP（J2EE）（精通）（马士兵）
 - MySQL + navicat 《高性能MySQL》
