@@ -25,11 +25,11 @@
 - 怎么查看进程的内存
 ## 计算机网络
 - 三次握手
-> SYN | SEQ、 SYN ACK | ACKNUM SEQ、 ACK | ACKNUM  
+> SYN = 1 | SEQ = x、 SYN = 1 ACK = 1 | ACKNUM = x + 1 SEQ = y、 ACK = 1 | ACKNUM = y + 1
 > 建立连接的时候，服务器把SYN和ACK放在一个包内
 
 - 四次挥手
-> FIN | SEQ、ACK | ACKNUM、FIN | SEQ、ACK | ACKNUM  
+> FIN = 1| SEQ = x、ACK = 1| ACKNUM = x + 1、FIN = 1 | SEQ = y、ACK = 1| ACKNUM = y + 1  
 > 一端发送FIN包之后，处于半关闭状态，此时仍然可以接收数据包。如果有一端收到FIN包之后，需要回复对该包的ACK包，但可能这个时候还有数据没有发完，所以把剩下的数据发完之后，在发送一个FIN包，断开这个方向的连接  
 > TIME_WAIT：第四次挥手，也就是客户端发出的ACK包可能丢失，客户端会等待一定时间（2个MSL，两个报文的存活最长时间），这个时间内没有收到服务器要求重传ACK的报文，则认定服务器正确接收并已经断开连接了
 
